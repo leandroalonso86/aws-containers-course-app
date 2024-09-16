@@ -1,4 +1,4 @@
-data "aws_ssm_parameter" "vpc" {
+data "aws_ssm_parameter" "vpc_id" {
   name = var.ssm_vpc_id
 }
 
