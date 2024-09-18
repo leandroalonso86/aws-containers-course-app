@@ -17,3 +17,7 @@ data "aws_ssm_parameter" "private-1b" {
 data "aws_ssm_parameter" "private-1c" {
   name = var.ssm_pvt_subnet_1c
 }
+
+data "aws_ssm_parameter" "alb_arn" {
+  name = var.ssm_alb_arn
+}
